@@ -1,6 +1,7 @@
 var Q = require('q');
 var config = require('config');
 var googl = require('goo.gl');
+
 googl.setKey(config.get('googl.auth'));
 
 var shorten = function(url) {
@@ -15,4 +16,5 @@ var shorten = function(url) {
   });
   return deferred.promise;
 }
-exports.shorten = shorten;
+module.exports = shorten;
+//exports.shorten = shorten;
