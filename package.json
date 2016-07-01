@@ -1,6 +1,6 @@
 {
   "name": "q_googl",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "q and goo.gl",
   "main": "index.js",
   "scripts": {
