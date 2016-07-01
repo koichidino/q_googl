@@ -18,6 +18,7 @@
   "homepage": "https://github.com/koichidino/q_googl#readme",
   "dependencies": {
     "config": "^1.19.0",
+    "goo.gl": "^0.1.4",
     "q": "^1.4.1"
   }
 }
